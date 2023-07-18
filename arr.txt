@@ -1,0 +1,20 @@
+package oopexamples;
+
+import java.util.Scanner;
+
+public class Array {
+    public static void main(String[] args) {
+        int[] arr = new int[]{47,9,69,6,25,5,6,2,5};
+        int oddCount=0,evenCount = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]%2==0){
+                evenCount++;
+            }
+            else{
+                oddCount++;
+            }
+        }
+        System.out.println(evenCount);
+        System.out.println(oddCount);
+    }
+}
